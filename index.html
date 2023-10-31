@@ -5,21 +5,12 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <ul>
-        <li>
-            <a href="https://validator.w3.org/check?uri=https://domain.com/validate-html.php" target="_blank">
-                <img src="https://domain.com/w3c-html.png" alt="HTML Validator" width="100" height="100">
-            </a>
-        </li>
-        <li>
-            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://domain.com/validate-css.php" target="_blank">
-                <img src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="CSS Validator" width="100" height="100">
-            </a>
-        </li>
-    </ul>
+   
+   
+       
     <h1 > About Me</h1>
     <p>My name is Bashar shaheen</p>
-    <p>I am a <b>computer engineer</b> stundent in <b>alquds universty </b></p>
+    <p1>I am a <b>computer engineer</b> stundent in <b>alquds universty </b></p1>
     <h2>  Current Classes </h2>
     <ul>
         <li>Data communication</li>
@@ -27,13 +18,26 @@
         <li>Operating system</li>
     </ul>
     <h2>my Favorite Movies</h2>
-    <ol>
+    <ol class="reverse">
         <li><a href="https://www.imdb.com/title/tt0468569/?ref_=chttp_t_3" target="_blank">The Dark Knight
-        </a></li>
+        </a>
+        <dl class="movie-info">
+            <dt>Genre:</dt>
+            <dd>Action, Crime, Drama</dd>
+            <dt>Director:</dt>
+            <dd>Christopher Nolan</dd>
+            <dt>Release Year:</dt>
+            <dd>2008</dd>
+            <dt>IMDb Rating:</dt>
+            <dd>9.0/10</dd>
+        </dl>
+    </li>
         <li><a href="https://www.imdb.com/title/tt0167260/?ref_=chttp_t_7" target="_blank"> The Lord of the Rings: The Return of the King
-        </a></li>
+        </a>
+    </li>
         <li><a href="https://www.imdb.com/?ref_=nv_home" target="_blank"> Parasite</a></li>
     </ol>
+    <div class="scrolling-element">Hi.</div>
     <h2>Images</h2>
     <p>Here are two images that represent me when I'm happy and sad:</p>
     happy: <img src="data:image/png;base64,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" alt="Happiness Image">
