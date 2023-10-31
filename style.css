@@ -1,0 +1,27 @@
+
+h1 {
+    color: #080808; 
+}
+
+h2 {
+    color: #4286f4; 
+}
+
+    
+    body {
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+}
+
+
+
+a {
+    font-family: Verdana, sans-serif; 
+    font-weight: bold; 
+    text-decoration: none; 
+}
+
+
+body {
+    background-color: #F0F0F0; 
+}
