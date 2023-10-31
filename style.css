@@ -51,7 +51,7 @@ body {
     background-color: #F0F0F0; 
 }
 
-.reverse {
+.reverse  {
     display: flex;
     flex-direction: column-reverse;
 }
